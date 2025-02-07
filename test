@@ -1,0 +1,66 @@
+Diamond: Cheers & Earned Leave
+Gold: Coffee with Tuhin & WFH Perks
+Silver: WFH Perks & GD T-Shirt
+Bronze: GD T-Shirt & Water Bottle
+prompt
+Hey Bolt,
+I need you to create a spin wheel-based website with the following specifications:
+### **Design Requirements:**
+- Take background color inspiration from the attached screenshot.
+- Build a **Spin Wheel** at the center of the page.
+- In the middle of the spin wheel, display the text **"Wheel of Fortune"**.
+- Below the spin wheel, add a button labeled **"Spin Now"**.
+### **User Interaction Flow:**
+1. When a user clicks the **"Spin Now"** button, a **pop-up dialog box** should appear in the center of the screen.
+2. The pop-up should ask the user to **enter their ID**.
+3. Once the user enters their ID and clicks the **"Go"** button:
+   - The pop-up should disappear.
+   - The **spin wheel should populate with the following rewards**, positioned around the wheel:
+     - **Cheers & Earned Leave**
+     - **Coffee with Tuhin & WFH Perks**
+     - **WFH Perks & GD T-Shirt**
+     - **GD T-Shirt & Water Bottle**
+   - After a **4-second delay**, the wheel should start spinning.
+### **Data Structure & Logic:**
+- Create a **JSON dataset** of **20 guides**, each having an **ID** and an assigned **bucket**:
+  - **Diamond:** Cheers & Earned Leave
+  - **Gold:** Coffee with Tuhin & WFH Perks
+  - **Silver:** WFH Perks & GD T-Shirt
+  - **Bronze:** GD T-Shirt & Water Bottle
+- When a user enters their ID:
+  - Identify their **assigned bucket**.
+  - Each bucket has **two possible rewards**.
+  - Randomly pick **one** of the two rewards.
+  - The spin wheel should **stop at the selected reward**.
+  - Once the spin stops, display a **pop-up animation** showing the prize the user won.
+### **Additional Features:**
+- Add **smooth animations** to the spin wheel, pop-up box, and prize reveal animation.
+- Ensure the website follows **best UI/UX practices** while keeping it visually appealing.
+- Use **color inspiration from the attached screenshot**.
+Now, **build the website as per the above requirements with high-quality animations and an engaging user experience.**
+Here’s a detailed prompt to modify the existing spin wheel and make it more **beautiful, attractive, and professional**:
+---
+**Hey Bolt,**
+I need you to **enhance and redesign the existing spin wheel** to make it look more **aesthetic, professional, and visually engaging**. Here are the key improvements:
+### **Design Enhancements:**
+- Use **modern gradients and smooth animations** for the spin wheel.
+- Add **a glowing effect** around the wheel to make it more eye-catching.
+- Improve the **pointer arrow** design to make it stand out.
+- Use **high-quality shadows and reflections** to give a **3D effect**.
+- Ensure the **font and text styling** on the wheel and UI look premium and elegant.
+### **Interaction Improvements:**
+- Improve the **spin animation** with a smoother and more dynamic motion, making it feel natural.
+- Add a **subtle sound effect** when the wheel spins and stops.
+- When the wheel stops, show a **beautiful confetti animation** to celebrate the prize.
+- Improve the **pop-up animation** when the user wins a reward, making it more lively and engaging.
+### **Functional Enhancements:**
+- Ensure **responsiveness** so the design adapts well to all screen sizes.
+- Optimize for **fast performance** by using efficient animations and rendering.
+- Improve the **button styles**, making them more interactive with hover and click effects.
+- Add **smooth transitions** for pop-ups and user interactions.
+### **Tech & Package Upgrades:**
+- Install and use **GSAP (GreenSock)** for high-performance animations.
+- Use **Tailwind CSS** for a clean and modern UI.
+- Implement **React Spring or Framer Motion** for smooth transitions.
+- Ensure all **color palettes are premium and well-balanced** for a polished look.
+Now, **apply these improvements and redesign the spin wheel with the highest quality animations, UI enhancements, and smooth interactions to make it a premium experience.**
